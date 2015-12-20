@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route } from 'react-router';
-import App from './components/App';
+import App from './components/app';
 import PoweredBy from './components/Powered-by';
 import About from './components/About';
 

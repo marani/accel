@@ -4,8 +4,7 @@ Built on React Starterify
 
 ## Why there are no Flux or Isomorphic things inside?
 
-If you are a beginner, you probably don't want a complex structure with lots of things to care about.
-If you are an advanced user, and you need more features, you can choose one of the thousand existing full-stack starter kit. Or you can build your own.
+Not yet
 
 ## Usage
 
