@@ -1,4 +1,6 @@
-## Based on React Starterify
+## Accel - Minimum web timer
+
+Built on React Starterify
 
 ## Why there are no Flux or Isomorphic things inside?
 
