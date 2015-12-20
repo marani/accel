@@ -1,0 +1,72 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+  /*background-color: #FFF1A0;
+  color: #732A12;*/
+  background-color: #333;
+  color: #eee;
+  /*background-color: #F0C596;
+  color: #2E3263;*/
+  /*color: #0D4011;*/
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#content {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.app-root {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;*/
+}
+
+.task {
+  margin-top: 48px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.timer {
+  font-size: 96px;
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  color: #fff;
+  background: #0066bb url(../images/reactjs.png) no-repeat right 10px;
+  background-size: contain;
+  h1 {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    &.active,
+    &:hover {
+      background-color: #0085F3;
+    }
+  }
+}
+
+section {
+ padding: 20px;
+}
